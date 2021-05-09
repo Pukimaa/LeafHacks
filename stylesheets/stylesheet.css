@@ -29,6 +29,10 @@ body {
     box-shadow: 0 3px 2px 0 rgba(0,0,0,0.3);
 }
 
+.discord {
+  background-color: transparent;
+}
+
 a {
   text-decoration: none;
   color: #834B16 !important;
