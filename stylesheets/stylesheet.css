@@ -20,7 +20,7 @@ body {
   position: sticky;
   float: left;
   bottom: calc(100vh - 35px);
-  left: 10px
+  left: 10px;
   background-color: transparent;
   padding: 0 0;
   line-height: 1;
