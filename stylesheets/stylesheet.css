@@ -15,24 +15,39 @@ body {
   background-image: url("https://www.animal-crossing.com/assets/img/patterns/green-triangles.png");
 }
 
-a {
-  color: #1e6bb8;
-  text-decoration: none; }
-  a:hover {
-    text-decoration: underline; }
-
-.footer {
-  position: absolute;
-  width: 100vw;
-  height: auto;
-}
-
 .discord {
   position: absolute;
   position: sticky;
   float: left;
   bottom: calc(100vh - 35px);
   left: 10px
+  background-color: transparent;
+  padding: 0 0;
+  line-height: 1;
+  border-radius: 0px;
+  -webkit-box-shadow: 0 3px 2px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 3px 2px 0 rgba(0,0,0,0.3);
+}
+
+a {
+  text-decoration: none;
+  color: #834B16 !important;
+  background-color: #FDD10A;
+  padding: 15 45;
+  line-height: 1.75;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 3px 2px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 3px 2px 0 rgba(0,0,0,0.3);
+}
+
+a:hover {
+  background-color: #FFE46A;
+}
+
+.footer {
+  position: absolute;
+  width: 100vw;
+  height: auto;
 }
 
 .btn {
