@@ -1,19 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
+
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: 'Arvo', sans-serif !important;
+}
 
 body {
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 5px;
   line-height: 1.5;
-  color: #606c71; }
+  color: #606c71;
+  background-color: #159957;
+  background-image: url("https://www.animal-crossing.com/assets/img/patterns/green-triangles.png");
+}
 
 a {
   color: #1e6bb8;
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
+
+.footer {
+  position: absolute;
+  width: 100vw;
+  height: auto;
+}
+
+.discord {
+  position: absolute;
+  position: sticky;
+  float: left;
+  bottom: calc(100vh - 35px);
+  left: 10px
+}
 
 .btn {
   display: inline-block;
@@ -77,7 +97,7 @@ a {
 
 @media screen and (min-width: 64em) {
   .project-name {
-    font-size: 3.25rem; } }
+    font-size: 3rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .project-name {
@@ -118,7 +138,7 @@ a {
 .main-content code {
   padding: 2px 4px;
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  font-size: 0.9rem;
+  font-size: 0.1rem;
   color: #383e41;
   background-color: #f3f6fa;
   border-radius: 0.3rem; }
@@ -149,7 +169,7 @@ a {
 .main-content .highlight pre, .main-content pre {
   padding: 0.8rem;
   overflow: auto;
-  font-size: 0.9rem;
+  font-size: 0.5rem;
   line-height: 1.45;
   border-radius: 0.3rem; }
 .main-content pre code, .main-content pre tt {
@@ -208,17 +228,17 @@ a {
     max-width: 64rem;
     padding: 2rem 6rem;
     margin: 0 auto;
-    font-size: 1.1rem; } }
+    font-size: 0.7rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .main-content {
     padding: 2rem 4rem;
-    font-size: 1.1rem; } }
+    font-size: 0.7rem; } }
 
 @media screen and (max-width: 42em) {
   .main-content {
     padding: 2rem 1rem;
-    font-size: 1rem; } }
+    font-size: 0.6rem; } }
 
 .site-footer {
   padding-top: 2rem;
