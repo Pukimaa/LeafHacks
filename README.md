@@ -1,4 +1,4 @@
-# http://sirbeethoven.github.io/LeafHacks/
+# http://pukimaa.github.io/LeafHacks/index.html
 # LeafHacks
 A hub for ACNL item ID's! To be used with [these ACNL Hacks!](https://gbatemp.net/threads/release-animal-crossing-new-leaf-multi-cheat-ntr-plugin.428522/)  
 Go [here](http://moridb.com) to see what an item looks like before you spawn it in!  
