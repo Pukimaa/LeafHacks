@@ -45,3 +45,7 @@ Fav. Environment
 009d    Pattern
 2081    train station locker (1)
 2082    train station locker (2)
+00cd    rafflesia
+00f8    rafflesia (wilted)
+0098    rock
+009e    hole
