@@ -37,6 +37,30 @@ body {
   background-color: transparent;
 }
 
+@media screen and (max-width: 1215px) {
+  .discord {
+    margin-top: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .discord {
+    margin-top: 7rem;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .discord {
+    margin-top: 10rem;
+  }
+}
+
+@media screen and (max-width: 348px) {
+  .discord {
+    margin-top: 13rem;
+  }
+}
+
 a {
   text-decoration: none;
   color: #834B16 !important;
