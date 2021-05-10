@@ -13,6 +13,10 @@ body {
   color: #606c71;
   background-color: #01A623;
   background-image: url("https://www.animal-crossing.com/assets/img/patterns/green-triangles.png");
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
 }
 
 .discord {
@@ -50,8 +54,13 @@ a:hover {
 
 .footer {
   position: absolute;
-  width: 100vw;
+  z-index: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   height: auto;
+  text-align: center;
 }
 
 .btn {
