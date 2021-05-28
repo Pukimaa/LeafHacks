@@ -62,7 +62,7 @@ body {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
   color: #834B16 !important;
   background-color: #FDD10A;
   padding: 15 45;
